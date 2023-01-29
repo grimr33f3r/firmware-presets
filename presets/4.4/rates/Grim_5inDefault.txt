@@ -1,0 +1,23 @@
+#$ TITLE: Grim - 5" Default Rates
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RATES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Grim, Default
+#$ AUTHOR: Grim
+#$ DESCRIPTION: Freestyle rates with 900 deg/sec for roll/pitch and 700 deg/sec for yaw. Relatively smooth around the sticks middle.
+#$ DESCRIPTION: Default 5" Actual rates, 3 settings 900, 670 & 500
+
+profile 0
+rateprofile 0
+set roll_srate = 90
+set pitch_srate = 90
+set yaw_srate = 70
+rateprofile 1
+set roll_srate = 67
+set pitch_srate = 67
+set yaw_srate = 67
+rateprofile 2
+set roll_srate = 50
+set pitch_srate = 50
+set yaw_srate = 40
+rateprofile 0
