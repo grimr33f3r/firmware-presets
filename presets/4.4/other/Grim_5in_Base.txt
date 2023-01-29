@@ -1,0 +1,59 @@
+#$ TITLE: 5in Base Settings
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OTHER
+#$ KEYWORDS: Grim, Base, Defaults
+#$ AUTHOR: Grim
+#$ DESCRIPTION: Basic common config across all quads.
+#$ STATUS: COMMUNITY
+
+# beeper
+set beeper_dshot_beacon_tone = 2
+beeper -GYRO_CALIBRATED
+beeper -RX_LOST
+beeper -RX_LOST_LANDING
+beeper -DISARMING
+beeper -ARMING
+beeper -ARMING_GPS_FIX
+beeper -BAT_CRIT_LOW
+beeper -BAT_LOW
+beeper -GPS_STATUS
+beeper -RX_SET
+beeper -ACC_CALIBRATION
+beeper -ACC_CALIBRATION_FAIL
+beeper -READY_BEEP
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -SYSTEM_INIT
+beeper -ON_USB
+beeper -BLACKBOX_ERASE
+beeper -CRASH_FLIP
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSE
+beeper -RC_SMOOTHING_INIT_FAIL
+
+# beacon
+beacon RX_SET
+
+# map
+map RETA1234
+
+
+# master
+set min_check = 1010
+set max_check = 1990
+set small_angle = 180
+set pilot_name = GriM
+
+# rxfail
+rxfail 3 s 875
+
+# aux
+aux 0 0 0 1950 2050 0 0
+aux 1 1 1 950 1050 0 0
+aux 2 2 1 1450 1550 0 0
+aux 3 13 2 1950 2050 0 0
+aux 4 35 2 1450 1550 0 0
+
+# adjrange
+adjrange 0 0 5 900 2100 12 5 0 0
+

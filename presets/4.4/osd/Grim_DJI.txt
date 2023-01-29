@@ -1,0 +1,19 @@
+#$ TITLE: Grim - Basic DJI
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Grim, DJI
+#$ AUTHOR: Grim
+#$ DESCRIPTION: Minimal no frills OSD for DJI with digital sized screen set up and no GPS.
+#$ DESCRIPTION: Minimal no frills OSD for DJI with digital sized screen set up and no GPS.
+
+feature OSD
+set vcd_video_system = HD
+set osd_warn_bitmask = 893
+set osd_vbat_pos = 2657
+set osd_link_quality_pos = 3125
+set osd_warnings_pos = 14968
+set osd_stat_bitmask = 14116
+set osd_displayport_device = MSP
+set osd_canvas_width = 60
+set osd_canvas_height = 22
